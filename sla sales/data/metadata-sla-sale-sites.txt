@@ -1,0 +1,100 @@
+# Metadata for SLA Sale Sites
+---
+Identifier: '3a38c7d9-b324-46d2-9441-73abf1d722da'
+Name: 'sla-sale-sites'
+Title: 'SLA Sale Sites'
+Description: 'Announcement of launch and award of sale sites by SLA'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Announcement of launch and award of sale sites by SLA'
+Publisher:
+  Name: 'Singapore Land Authority'
+  Admin 1:
+    Name: 'Yee Sook Ching'
+    Department: 'Land Data Division'
+    Email: 'sla_agencyadmin@sla.gov.sg'
+Sources:
+  - 'Singapore Land Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Ad-hoc'
+Coverage: '2007-10-11 to 2010-11-30'
+Last Updated: '2018-01-30T09:45:05.399133'
+Resources:
+  -
+    Identifier: '5dde16d2-6126-46d8-a1a0-88b66eee94e4'
+    Title: 'SLA Sale Sites'
+    Url: 'https://storage.data.gov.sg/sla-sale-sites/resources/sla-sale-sites-2016-05-13T08-43-48Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-10-11 to 2010-11-30'
+    Description: 'Cover successful tender/auction bids for SLA sale sites awarded
+      from 2002 onwards'
+    Last Updated: '2016-05-13T08:43:48.476352'
+    Schema:
+      -
+        Name: 'date_of_launch'
+        Title: 'Date Of Launch'
+        Type: 'datetime'
+        Sub Type: 'date'
+        Format: 'YYYY-MM-DD'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'date_of_tender_closing_or_auction'
+        Title: 'Date Of Tender Closing Or Auction'
+        Type: 'datetime'
+        Sub Type: 'date'
+        Format: 'YYYY-MM-DD'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'date_of_award'
+        Title: 'Date Of Award'
+        Type: 'datetime'
+        Sub Type: 'date'
+        Format: 'YYYY-MM-DD'
+      -
+        Name: 'location'
+        Title: 'Location'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'type_of_development_allowed'
+        Title: 'Type Of Development Allowed'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'site_area'
+        Title: 'Site Area'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Square Metre'
+      -
+        Name: 'gross_floor_area'
+        Title: 'Gross Floor Area'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Square Metre'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'gross_plot_ratio'
+        Title: 'Gross Plot Ratio'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: '-'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'name_of_successful_tenderer_or_bidder'
+        Title: 'Name Of Successful Tenderer Or Bidder'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'successful_tender_or_auction_price'
+        Title: 'Successful Tender Or Auction Price'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
+      -
+        Name: 'remark'
+        Title: 'Remark'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: '"na" : Data not available or not applicable'
